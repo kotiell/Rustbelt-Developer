@@ -1,0 +1,43 @@
+/* CSS for RustBelt Developer */
+body{
+  font-family:'Helvetica', Arial, sans-serif;
+  font-size:16px;
+  color:#333;
+  line-height:150%;
+}
+
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight:400;
+}
+
+.header-row{
+  font-size:3.125em;
+  line-height:100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight:900;
+  padding:20px 0;
+}
+
+.top-links{
+  list-style: none;
+  margin-left:0;
+}
+
+.top-links li{
+  float:left;
+  margin-right:20px;
+}
+
+.preview-box{
+  box-shadow:0 2px 5px rgba(117,117,117,.5);
+}
+
+.preview-box h1{
+  margin:20px;
+}
+
+.preview-box p{
+  margin:20px;
+}
