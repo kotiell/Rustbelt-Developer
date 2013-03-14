@@ -4,12 +4,14 @@ body{
   font-size:16px;
   color:#333;
   line-height:150%;
+  background-image:url(../img/noisy_grid.png);
 }
 
 
 h1{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
+  color:#CB7430; 
 }
 
 .header-row{
@@ -17,12 +19,16 @@ h1{
   line-height:100%;
   font-family: 'Roboto', sans-serif;
   font-weight:900;
+  color:#273E4A;
   padding:20px 0;
+  text-shadow:0 1px 0 rgba(255,255,255,1)
 }
 
 .top-links{
   list-style: none;
   margin-left:0;
+  margin-bottom:60px;
+  padding-top:16px;
 }
 
 .top-links li{
@@ -31,7 +37,9 @@ h1{
 }
 
 .preview-box{
-  box-shadow:0 2px 5px rgba(117,117,117,.5);
+  background-color:#FFF;
+  box-shadow:0 2px 5px rgba(0,0,0,.5);
+  margin-bottom:60px;
 }
 
 .preview-box h1{
