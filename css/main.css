@@ -5,35 +5,51 @@ body{
   color:#333;
   line-height:150%;
   background-image:url(../img/noisy_grid.png);
+	padding-top:100px;
 }
 
 
 h1{
   font-family: 'Roboto', sans-serif;
   font-weight:400;
-  color:#CB7430; 
+  color:#1C0113; 
+  text-shadow:0 1px 0px rgba(255,255,255,.5);
 }
 
-.header-row{
-  font-size:3.125em;
-  line-height:100%;
-  font-family: 'Roboto', sans-serif;
-  font-weight:900;
-  color:#273E4A;
-  padding:20px 0;
-  text-shadow:0 1px 0 rgba(255,255,255,1)
+header{
+	position:fixed;
+	width:100%;
+	z-index:1000;
+	top:0;
+	background-color:#F03C02;
+	box-shadow:0 1px 0px rgba(255,255,255,.5);
 }
+
+.header-text{
+	font-size: 2em;
+	line-height: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	color: #FFF;
+	padding-top: 20px;
+	text-shadow: 0 1px 0 rgba(0,0,0,1);
+}
+
 
 .top-links{
   list-style: none;
   margin-left:0;
-  margin-bottom:60px;
-  padding-top:16px;
+  margin-bottom:50px;
+  padding-top:30px;
 }
 
 .top-links li{
   float:left;
   margin-right:20px;
+}
+
+.top-links li a{
+	color:#FFF;
 }
 
 .preview-box{
