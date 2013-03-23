@@ -65,3 +65,24 @@ header{
 .preview-box p{
   margin:20px;
 }
+
+.preview-box img{
+	margin-left:20px;
+}
+
+.categories{
+	background-color:#FFF;
+	border:solid 1px #ccc;
+	box-sizing:border-box;
+	padding:0 20px 10px 20px;
+}
+.categories strong{
+	display:block;
+	margin-top:10px;
+}
+.categories ul{
+	list-style:none;
+	margin-left:5px;
+	font-size:12px;
+}
+
