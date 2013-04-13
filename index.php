@@ -1,51 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>RustBelt Developer</title>
-    
-    <!-- bootstrap responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    
-    <!-- Bootstrap style sheet -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-    
-    <!-- Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
-    
-    <!-- Tiell CSS -->
-    <link href="css/main.css" rel="stylesheet" media="screen">
-  
-  </head>
-  <body>
-  <header>
-    <div class="container">
-      <div class="row header-row">
-        <div class="span4 header-text">
-          Rust Belt Developer
-        </div>
-		<div class="span4">
-		<ul class="top-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-		</div>
-		
-		<div class="span4">
-          <form class="navbar-search pull-left" style="padding-top:20px;">
-            <input type="text" class="search-query" placeholder="Search">
-          </form>
-        </div>
-      </div>
-    </div>
-	</header>
-	
-	<div class="container">
+<?php get_header(); ?>
     <div class="row">
 			<div class="span10">
+				<?php
+					$args = array( 'numberposts' => 10, 'order'=> 'DESC', 'orderby' => 'title' );
+					$postslist = get_posts( $args );
+					foreach ($postslist as $post) :  setup_postdata($post); ?> 
+						<div class="row">
+							<div class="span10 preview-box">
+								<h1><?php the_title(); ?></h1>   
+								<h3><?php the_date(); ?></h3>
+								<p><?php the_content(); ?></p>
+							</div>
+						</div>
+					<?php endforeach; ?>
+								
+			
 				<div class="row">
 					<div class="span10 preview-box">
 						<h1>Blog Title</h1>
@@ -112,26 +81,5 @@
 					</div>
 				</div>
 			</div>
-			<div class="span2 categories">
-				<strong>Social</strong>
-				+1 Tweet Like
-				<strong>Categories</strong>
-				<ul>
-					<li><a href="#">Cat 1</a> (21)</li>
-					<li><a href="#">Cat 2</a> (52)</li>
-					<li><a href="#">Cat 3</a> (1)</li>
-				</ul>
-			</div>
     </div>
-		<footer>
-			Brett Zink 2013
-		</footer>
-  </div><!-- Container -->
-    
-    <!-- Bootstrap JavaScript and Jquery -->
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  
-  
-  </body>
-</html>
+<?php get_footer(); ?>

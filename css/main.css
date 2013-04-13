@@ -85,6 +85,7 @@ header{
 	border:solid 1px #ccc;
 	box-sizing:border-box;
 	padding:0 20px 10px 20px;
+	float:right;
 }
 .categories strong{
 	display:block;

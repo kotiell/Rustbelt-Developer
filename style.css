@@ -1,0 +1,14 @@
+/*
+Theme Name: Rust Belt Developer
+Theme URI: rustbeltdeveloper.com
+Description: Basic theme for Rust Belt Developer.
+Author: Justin Tiell
+Author URI: http://kotiell.com
+Version: 1.0
+Tags: responsive, white, bootstrap, orange
+*/
+
+  @import url('http://rustbeltdev.azurewebsites.net/wp-content/themes/rustbelt//css/bootstrap-responsive.css');
+  @import url('http://rustbeltdev.azurewebsites.net/wp-content/themes/rustbelt//css/bootstrap.min.css');
+  @import url('http://fonts.googleapis.com/css?family=Roboto:400,900');
+  @import url('http://rustbeltdev.azurewebsites.net/wp-content/themes/rustbelt//css/main.css');
