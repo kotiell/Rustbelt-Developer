@@ -16,6 +16,10 @@ h1{
   text-shadow:0 1px 0px rgba(255,255,255,.5);
 }
 
+h3{
+	font-family:'Helvetica', Arial, sans-serif;
+}
+
 header{
 	position:fixed;
 	width:100%;
@@ -68,11 +72,7 @@ header{
   margin-bottom:60px;
 }
 
-.preview-box h1{
-  margin:20px;
-}
-
-.preview-box p{
+.preview-box h1,h2,h3,h4,p{
   margin:20px;
 }
 
@@ -97,3 +97,6 @@ header{
 	font-size:12px;
 }
 
+.wp_syntax{
+	margin-left:60px;
+}
