@@ -1,54 +1,46 @@
 /* CSS for RustBelt Developer */
 body{
-  font-family:'Helvetica', Arial, sans-serif;
-  font-size:16px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size:100%;
   color:#333;
   line-height:150%;
-  background-image:url(../img/shattered.png);
-	padding-top:100px;
+	background-color:#FCFCFA;
 }
 
-
 h1{
-  font-family: 'Roboto', sans-serif;
-  font-weight:400;
+	font-family: 'Droid Sans', sans-serif;
+  font-weight:500;
   color:#1C0113; 
   text-shadow:0 1px 0px rgba(255,255,255,.5);
+	font-size:3em;
 }
 
 h3{
-	font-family:'Helvetica', Arial, sans-serif;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:1.2em;
 }
 
 header{
-	position:fixed;
 	width:100%;
-	z-index:1000;
-	top:0;
-	box-shadow:0 1px 0px rgba(0,0,0,.5);
-	border-bottom:solid 10px #FFF;
-	background: rgb(243,99,52); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(243,99,52,1) 0%, rgba(192,48,2,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,99,52,1)), color-stop(100%,rgba(192,48,2,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(243,99,52,1) 0%,rgba(192,48,2,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top,  rgba(243,99,52,1) 0%,rgba(192,48,2,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top,  rgba(243,99,52,1) 0%,rgba(192,48,2,1) 100%); /* IE10+ */
-	background: linear-gradient(to bottom,  rgba(243,99,52,1) 0%,rgba(192,48,2,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36334', endColorstr='#c03002',GradientType=0 ); /* IE6-9 */
-
-
 }
 
 .header-text{
-	font-size: 2em;
-	line-height: 100%;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
-	color: #FFF;
-	padding-top: 20px;
-	text-shadow: 0 1px 0 rgba(0,0,0,1);
+  font-family: 'Vollkorn', serif;
+	font-weight: 700;
+	color: #A67726;
+	font-size:5em;
+	padding:40px 0 40px 0;
 }
 
+.link-row{
+	margin-bottom:3.75em;
+}
+
+.the-post{
+	padding-bottom:2.5em;
+	border-bottom:solid 5px #A67726;
+	margin-bottom:4em;
+}
 
 .top-links{
   list-style: none;
@@ -60,20 +52,16 @@ header{
 .top-links li{
   float:left;
   margin-right:20px;
+	font-size:1.375em;
 }
 
 .top-links li a{
-	color:#FFF;
+	color:#8C774F;
 }
 
-.preview-box{
-  background-color:#FFF;
-  box-shadow:0 2px 5px rgba(0,0,0,.5);
-  margin-bottom:60px;
-}
-
-.preview-box h1,h2,h3,h4,p{
-  margin:20px;
+p{
+	font-size:1.125em;
+	line-height:1.8;
 }
 
 .preview-box img{
