@@ -17,8 +17,10 @@
     <div class="row link-row">
 			<div class="span4">
 				<ul class="top-links">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
+					<!-- 
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+					-->
 					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>		
