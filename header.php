@@ -11,24 +11,8 @@
     <div class="container">
 		<div class="row">
 			<div class="span12 header-text">
-				Rust Belt Developer
+				<a href="/">Rust Belt Developer</a>
 			</div>
 		</div>
-    <div class="row link-row">
-			<div class="span4">
-				<ul class="top-links">
-					<!-- 
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-					-->
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</div>		
-			<div class="span6">
-				<form class="navbar-search pull-left" style="padding-top:20px;">
-					<input type="text" class="search-query" placeholder="Search">
-				</form>
-			</div>
-    </div>
 	</header>
 	<div class="container">

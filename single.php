@@ -10,10 +10,10 @@
 								<h1><?php the_title(); ?></h1>   
 								<h3>Posted: <?php the_date(); ?></h3>
 								<?php the_content(); ?></p>
-							<a href="/index.php/all-posts/" class="all-post-link">See all posts</a>
 							</div>
 						</div>
 					<?php endforeach; ?>
+				<a href="/index.php/all-posts/">See all posts</a>
 			</div>
     </div>
 <?php get_footer(); ?>
